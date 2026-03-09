@@ -24,8 +24,18 @@ console.log(phoneNumber);*/
 
 /*4.Amount of money in a customer's bank account: 1000.50
 Declare a variable for bank account balance */
-let bankAccountBalance : number = 1000.50;
-console.log(bankAccountBalance);
+
+//let bankAccountBalance : number = 1000.50;
+//console.log(bankAccountBalance);
+
+//trying with function
+
+function bankAccountBalance(): number {     
+let balance: number = 1000.50;
+return balance;
+}
+console.log(bankAccountBalance());
+
 
 /*5.Person's email address: "john.doe@example.com"
 Declare a variable for the email address */
