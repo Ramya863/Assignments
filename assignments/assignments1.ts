@@ -116,8 +116,12 @@ let employees : number = 500;
 console.log(employees);
 
 /*16.Time of an event: 2:30 PM
-Declare a variable for the event time */
+Declare a variable for the event time 
 let eventTime : string = "2:30 PM";
+console.log(eventTime);*/
+
+//trying with union data type
+let eventTime : string | number = "2:30 PM";
 console.log(eventTime);
 
 /*17.Name of a country: "United States"
