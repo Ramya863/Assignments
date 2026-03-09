@@ -18,6 +18,10 @@ Declare a variable for the phone number */
 let phoneNumber : string = "123-456-7890";
 console.log(phoneNumber);
 
+/* trying with union data type
+let phoneNumber : string | number = "123-456-7890";
+console.log(phoneNumber);*/
+
 /*4.Amount of money in a customer's bank account: 1000.50
 Declare a variable for bank account balance */
 let bankAccountBalance : number = 1000.50;
