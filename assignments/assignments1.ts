@@ -10,8 +10,8 @@ Declare a variable for customer order status */
 let PlacedOrder : boolean = true;
 console.log(PlacedOrder);
 
-let PlaceOrder1 : boolean = false;
-console.log(PlacedOrder);
+let order2 : boolean = false;
+console.log(order2);
 
 /*3.Person's phone number: "123-456-7890"
 Declare a variable for the phone number */
