@@ -28,11 +28,32 @@ Declare a variable for the email address */
 let emailAddress : string = "john.doe@example.com";
 console.log(emailAddress);
 
+/*trying with object 
+interface email{
+address: string;
+}
+let emailAddress: email = {
+address: "john.doe@example.com"
+};
+console.log(emailAddress);*/
+
 /*6.Coordinates of a location (latitude, longitude): 37.7749, -122.4194
 Declare variables for latitude and longitude */
-let latitude : number = 37.7749;
+
+/*let latitude : number = 37.7749;
 let longitude : number = -122.4194;
-console.log(latitude, longitude);
+console.log(latitude, longitude);*/
+
+ //creating an object for coordinates
+interface coordinates{
+latitude: number;
+longitude: number;
+}   
+let local: coordinates = {
+latitude: 37.7749,
+longitude: -122.4194
+};
+console.log(local);
 
 /*7.Person's marital status: true or false
 Declare a variable for marital status */
