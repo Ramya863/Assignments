@@ -1,14 +1,21 @@
 // Comparison Operators in TypeScript
-
+ let a: number = 10;
+ let b: number = 20;
+ let c:string= "10";
 // Equality Operators is used to compare two values for equality. It returns true if the values are equal, and false otherwise.
-console.log(5 == 5);    // true (loose equality)
-//console.log(5 === "5");   // false (strict equality)
+//console.log(a==c);    // true (loose equality)
+//console.log(a === c);   // false (strict equality)
 
 // Relational Operators is used to compare two values and determine their relative order. It returns true or false based on the comparison.
-console.log(10 > 5);      // true
-console.log(10 < 5);      // false
-console.log(10 >= 10);    // true
-console.log(10 <= 5);     // false
+console.log(a > b);      // false
+console.log(a < b);      // true
+console.log(a >= a);    // true
+console.log(a <= b);     // true
+
+//inequality Operators is used to compare two values for inequality. It returns true if the values are not equal, and false otherwise.
+console.log(a != b);    // false (loose inequality)
+console.log(a !== b);   // true (strict inequality)     
+
 
 // Logical Operators is used to combine multiple boolean expressions and return a single boolean value based on the logical relationship between them.
 console.log(true && false);   // false
