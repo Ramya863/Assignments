@@ -91,7 +91,7 @@ console.log(currentYear);
 
 /*11. Number of followers on a social media platform: 1,000,000
 Declare a variable for the number of followers */
-let followers : number = 1000000;
+let followers : string = "1,000,000";
 console.log(followers);
 
 /*12.Rating of a movie: 7.5
@@ -103,6 +103,10 @@ console.log(movieRating);
 Declare a variable for the blood type */
 let bloodType : string = 'A';
 console.log(bloodType);
+
+//trying with any date type but not recommended, just a sample eg
+let bloodType2 : any = 'A';
+console.log(bloodType2);
 
 /*14.Title of a book: "To Kill a Mockingbird"
 Declare a variable for the book title */
