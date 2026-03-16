@@ -14,7 +14,7 @@ for (let n of numbers) {
         console.log(n + " is not prime number");
     } else {
         // Check divisibility
-        for (let i = 2; i < n; i++) {
+        for (let i:number = 2; i < n; i++) {
             if (n % i == 0) {
                 isPrime = false;
                 break;
