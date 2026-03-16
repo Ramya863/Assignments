@@ -116,8 +116,8 @@ console.log(bookTitle);
 
 /*15.Number of employees in a company: 500
 Declare a variable for the number of employees */
-let employees : number = 500;
-console.log(employees);
+let employee : number = 500;
+console.log(employee);
 
 /*16.Time of an event: 2:30 PM
 Declare a variable for the event time 
